@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>caster_desktop</name>
+  <version>1.1.0</version>
+  <description>The caster_desktop package</description>
+
+  <maintainer email="ye@iquotient-robotics.com">Ye Tian</maintainer>
+
+  <license>MIT</license>
+
+  <url type="website">https://github.com/I-Quotient-Robotics/caster</url>
+  <url type="repository">https://github.com/I-Quotient-Robotics/caster</url>
+  <url type="bugtracker">https://github.com/I-Quotient-Robotics/caster/issues</url>
+
+  <author email="ye@iquotient-robotics.com">Ye Tian</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>caster_viz</exec_depend>
+  <exec_depend>caster_teleop</exec_depend>
+  <exec_depend>caster_description</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
