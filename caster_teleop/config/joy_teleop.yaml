@@ -3,7 +3,7 @@ teleop:
     type: topic
     message_type: geometry_msgs/Twist
     topic_name: cmd_vel
-    deadman_buttons: [0] # Y
+    deadman_buttons: [6] # LT
     axis_mappings:
       -
         axis: 1

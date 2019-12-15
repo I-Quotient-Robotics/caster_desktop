@@ -16,6 +16,8 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
+  <exec_depend>hongfu_bms_msg</exec_depend>
+
   <exec_depend>caster_viz</exec_depend>
   <exec_depend>caster_teleop</exec_depend>
   <exec_depend>caster_description</exec_depend>
