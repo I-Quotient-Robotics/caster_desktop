@@ -64,10 +64,6 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
-        arm_mount_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
         base_footprint:
           Alpha: 1
           Show Axes: false
@@ -77,47 +73,11 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        camera_bottom_screw_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_color_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_color_optical_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_depth_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_depth_optical_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_left_ir_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_left_ir_optical_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_link:
+        bracelet_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        camera_right_ir_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_right_ir_optical_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
         caster_body_arm_link:
           Alpha: 1
           Show Axes: false
@@ -146,89 +106,84 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        end_effector_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        forearm_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        gripper_base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        gripper_finger1_finger_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        gripper_finger1_finger_tip_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        gripper_finger1_inner_knuckle_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        gripper_finger1_knuckle_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        gripper_finger2_finger_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        gripper_finger2_finger_tip_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        gripper_finger2_inner_knuckle_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        gripper_finger2_knuckle_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        half_arm_1_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        half_arm_2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         imu_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        j2s7s300_end_effector:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        j2s7s300_link_1:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        j2s7s300_link_2:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        j2s7s300_link_3:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        j2s7s300_link_4:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        j2s7s300_link_5:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        j2s7s300_link_6:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        j2s7s300_link_7:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        j2s7s300_link_base:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        j2s7s300_link_finger_1:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        j2s7s300_link_finger_2:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        j2s7s300_link_finger_3:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        j2s7s300_link_finger_tip_1:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        j2s7s300_link_finger_tip_2:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        j2s7s300_link_finger_tip_3:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
         kinect2_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
         kinect_v2_base:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kortex_base_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -260,7 +215,17 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        realsense_coupling_link:
+        shoulder_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        spherical_wrist_1_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        spherical_wrist_2_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -316,31 +281,11 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: true
-        arm_mount_link:
-          Value: true
         base_footprint:
           Value: true
         base_link:
           Value: true
-        camera_bottom_screw_frame:
-          Value: true
-        camera_color_frame:
-          Value: true
-        camera_color_optical_frame:
-          Value: true
-        camera_depth_frame:
-          Value: true
-        camera_depth_optical_frame:
-          Value: true
-        camera_left_ir_frame:
-          Value: true
-        camera_left_ir_optical_frame:
-          Value: true
-        camera_link:
-          Value: true
-        camera_right_ir_frame:
-          Value: true
-        camera_right_ir_optical_frame:
+        bracelet_link:
           Value: true
         caster_body_arm_link:
           Value: true
@@ -354,41 +299,39 @@ Visualization Manager:
           Value: true
         drive_wheel_right_link:
           Value: true
+        end_effector_link:
+          Value: true
+        forearm_link:
+          Value: true
+        gripper_base_link:
+          Value: true
+        gripper_finger1_finger_link:
+          Value: true
+        gripper_finger1_finger_tip_link:
+          Value: true
+        gripper_finger1_inner_knuckle_link:
+          Value: true
+        gripper_finger1_knuckle_link:
+          Value: true
+        gripper_finger2_finger_link:
+          Value: true
+        gripper_finger2_finger_tip_link:
+          Value: true
+        gripper_finger2_inner_knuckle_link:
+          Value: true
+        gripper_finger2_knuckle_link:
+          Value: true
+        half_arm_1_link:
+          Value: true
+        half_arm_2_link:
+          Value: true
         imu_link:
-          Value: true
-        j2s7s300_end_effector:
-          Value: true
-        j2s7s300_link_1:
-          Value: true
-        j2s7s300_link_2:
-          Value: true
-        j2s7s300_link_3:
-          Value: true
-        j2s7s300_link_4:
-          Value: true
-        j2s7s300_link_5:
-          Value: true
-        j2s7s300_link_6:
-          Value: true
-        j2s7s300_link_7:
-          Value: true
-        j2s7s300_link_base:
-          Value: true
-        j2s7s300_link_finger_1:
-          Value: true
-        j2s7s300_link_finger_2:
-          Value: true
-        j2s7s300_link_finger_3:
-          Value: true
-        j2s7s300_link_finger_tip_1:
-          Value: true
-        j2s7s300_link_finger_tip_2:
-          Value: true
-        j2s7s300_link_finger_tip_3:
           Value: true
         kinect2_link:
           Value: true
         kinect_v2_base:
+          Value: true
+        kortex_base_link:
           Value: true
         laser_link:
           Value: true
@@ -402,7 +345,11 @@ Visualization Manager:
           Value: true
         pan_tilt_yaw_link:
           Value: true
-        realsense_coupling_link:
+        shoulder_link:
+          Value: true
+        spherical_wrist_1_link:
+          Value: true
+        spherical_wrist_2_link:
           Value: true
         support_wheel_front_left_link:
           Value: true
@@ -431,41 +378,28 @@ Visualization Manager:
             caster_body_link:
               caster_body_part_link:
                 caster_body_arm_link:
-                  arm_mount_link:
-                    j2s7s300_link_base:
-                      j2s7s300_link_1:
-                        j2s7s300_link_2:
-                          j2s7s300_link_3:
-                            j2s7s300_link_4:
-                              j2s7s300_link_5:
-                                j2s7s300_link_6:
-                                  j2s7s300_link_7:
-                                    j2s7s300_end_effector:
-                                      {}
-                                    j2s7s300_link_finger_1:
-                                      j2s7s300_link_finger_tip_1:
-                                        {}
-                                    j2s7s300_link_finger_2:
-                                      j2s7s300_link_finger_tip_2:
-                                        {}
-                                    j2s7s300_link_finger_3:
-                                      j2s7s300_link_finger_tip_3:
-                                        {}
-                                    realsense_coupling_link:
-                                      camera_bottom_screw_frame:
-                                        camera_link:
-                                          camera_depth_frame:
-                                            camera_color_frame:
-                                              camera_color_optical_frame:
-                                                {}
-                                            camera_depth_optical_frame:
-                                              {}
-                                            camera_left_ir_frame:
-                                              camera_left_ir_optical_frame:
-                                                {}
-                                            camera_right_ir_frame:
-                                              camera_right_ir_optical_frame:
-                                                {}
+                  kortex_base_link:
+                    shoulder_link:
+                      half_arm_1_link:
+                        half_arm_2_link:
+                          forearm_link:
+                            spherical_wrist_1_link:
+                              spherical_wrist_2_link:
+                                bracelet_link:
+                                  end_effector_link:
+                                    gripper_base_link:
+                                      gripper_finger1_inner_knuckle_link:
+                                        gripper_finger1_finger_tip_link:
+                                          {}
+                                      gripper_finger1_knuckle_link:
+                                        gripper_finger1_finger_link:
+                                          {}
+                                      gripper_finger2_inner_knuckle_link:
+                                        gripper_finger2_finger_tip_link:
+                                          {}
+                                      gripper_finger2_knuckle_link:
+                                        gripper_finger2_finger_link:
+                                          {}
                 caster_body_head_link:
                   pan_tilt_base_link:
                     pan_tilt_yaw_link:
@@ -530,7 +464,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 2.3212578296661377
+      Distance: 4.079782962799072
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -545,10 +479,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.01039799489080906
+      Pitch: 0.5453978180885315
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 5.463574409484863
+      Yaw: 6.153575420379639
     Saved: ~
 Window Geometry:
   Displays:
