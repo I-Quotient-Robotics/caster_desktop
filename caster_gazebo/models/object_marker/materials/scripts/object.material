@@ -1,0 +1,15 @@
+material object/marker
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker.jpeg
+        filtering anistropic
+        max_anisotropy 16
+      }
+    }
+  }
+}

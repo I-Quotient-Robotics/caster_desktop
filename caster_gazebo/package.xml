@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>caster_gazebo</name>
+  <version>0.0.0</version>
+  <description>The caster_gazebo package</description>
+
+  <maintainer email="liu@todo.todo">liu</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>gazebo_ros</depend>
+  <exec_depend>gazebo</exec_depend>
+  <export>
+    <gazebo_ros gazebo_media_path="${prefix}" gazebo_model_path="${prefix}/models:${prefix}/models/caster_docker"/>
+  </export>
+</package>
