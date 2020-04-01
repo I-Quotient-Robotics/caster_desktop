@@ -17,6 +17,7 @@
   <buildtool_depend>catkin</buildtool_depend>
   
   <depend>rviz</depend>
+  <depend>rviz_imu_plugin</depend>
 
   <export>
   </export>
