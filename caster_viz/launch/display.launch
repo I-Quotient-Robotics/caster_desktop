@@ -2,5 +2,7 @@
 <launch>  
   <arg name="type" default="view"/>
 
+  <node name="rqt_runtime_monitor" pkg="rqt_runtime_monitor" type="rqt_runtime_monitor" />
+
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find caster_viz)/viz/$(arg type).rviz" />
 </launch>
